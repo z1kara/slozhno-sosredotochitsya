@@ -1,5 +1,58 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
+:root {
+  --main-font: 'IBM Plex mono';
+  --bg-color: #000028;
+  --text-color: #F1B2CE;
+  --accent-color: #FF0070;
+}
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  background-image: url(/images/cover-image-dark.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0px;
+  font-family: var(--main-font);
+}
+
+.header {
+  min-height: 668px;
+  display: grid;
+  padding: 10px;
+  position: relative;
+  align-items: baseline;
+  justify-items: end;
+}
+
+.decorated-zone {
+  color: var(--accent-color,#FF0070);
+}
+
+.title {
+  color: #DB00FF;
+  text-shadow: 4px 4px 0px #FF0070;
+  font-size: 116px;
+  font-weight: 700;
+  line-height: 82.5%;
+}
+
+.title-decor {
+  color: var(--bg-color);
+  background-color: var(--accent-color);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23.4px;
+}
+
+section:first-child {
+  margin-top: 40px;
+}
+
+h2 {
+  color: var(--accent-color);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23.4px;
 }
