@@ -12,8 +12,8 @@
   background-size: cover;
   background-attachment: fixed;
   margin: 0px;
-  padding: 0px 10px;
   font-family: var(--main-font);
+  min-inline-size: 375px;
 }
 
 .top_rec {
@@ -26,12 +26,13 @@
 }
 
 .header {
-  min-height: 668px;
   display: grid;
-  padding: 10px 0px;
+  padding: 10px 10px;
   position: relative;
   align-items: baseline;
   justify-items: end;
+  grid-template-rows: auto;
+  height: 668px;
   
 }
 
@@ -49,6 +50,21 @@
 }
 
 .header__theme-menu-button {
+  color: var(--accent-color);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px; 
+  outline: none;
+  background: transparent;
+  border: none;
+  font-family: var(--main-font);
+  padding: 1.5px 13px;
+  
+}
+
+
+.header__theme-menu-button:hover  {
   color: var(--accent-color);
   text-align: center;
   font-size: 18px;
