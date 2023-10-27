@@ -23,6 +23,23 @@
   align-items: baseline;
 }
 
+span {
+  position: absolute;
+  padding: 20px 0px 0px 943px;
+  color: var(--accent-color);
+  text-align: center;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+span:after {
+  content: ".";
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  margin-left: 3px;
+}
+
 .title {
   color: #DB00FF;
   text-shadow: 4px 4px 0px var(--accent-color);
