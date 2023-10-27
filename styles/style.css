@@ -11,8 +11,22 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  margin: 0px;
   font-family: var(--main-font);
-  min-inline-size: 375px;
 }
 
+.header {
+  min-height: 768px;
+  display: grid;
+  position: relative;
+  padding: 20px 0px;
+  grid-template-rows: 299px auto 299px;
+}
+
+.title {
+  color: #DB00FF;
+  text-shadow: 4px 4px 0px var(--accent-color);
+  font-size: 157px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 82.5%;
+}
