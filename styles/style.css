@@ -15,7 +15,7 @@
 }
 
 .header {
-  min-height: 768px;
+  max-height: 768px;
   display: grid;
   position: relative;
   padding: 20px 0px;
