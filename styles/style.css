@@ -70,3 +70,40 @@
 .title-decor-position {
   margin: 0px 20px 0px 513px;
 }
+
+section {
+  margin-top: 80px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  padding: 0px 20px;
+}
+
+section:first-of-type {
+  margin-top: 60px;
+}
+
+h2 {
+  color: var(--accent-color);
+  font-size: 18px;
+  line-height: 23.4px;
+}
+
+.big-block--1 {
+  grid-column: 1;
+  grid-row: 1/4;
+}
+
+.big-block--2 {
+  grid-column: 2/4;
+  grid-row: 1/4;
+
+} 
+
+.text {
+  padding-top: 10px;
+  color: var(--text-color);
+  font-size: 18px;
+  line-height: 23.4px;
+}
