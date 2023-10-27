@@ -12,20 +12,43 @@
   background-size: cover;
   background-attachment: fixed;
   font-family: var(--main-font);
+  position: relative;
 }
 
 .header {
   max-height: 768px;
   display: grid;
-  position: relative;
+ 
   padding: 20px 0px;
   grid-template-rows: 299px auto 299px;
   align-items: baseline;
 }
 
+.header::before {
+  content: ''; 
+  position: absolute;
+  top: 723px;
+  right: 979px;
+  width: 25px;
+  height: 25px; 
+  border-bottom: 1px solid var(--accent-color);   
+  border-left: 1px solid var(--accent-color);  
+}
+
+header::after {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: 979px;
+  width: 25px;
+  height: 25px; 
+  border-top: 1px solid var(--accent-color);   
+  border-right: 1px solid var(--accent-color);  
+}
+
 span {
   position: absolute;
-  padding: 20px 0px 0px 943px;
+  padding: 0px 0px 0px 943px;
   color: var(--accent-color);
   text-align: center;
   font-size: 18px;
