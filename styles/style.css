@@ -76,7 +76,7 @@ section {
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(3, 1fr);
-   grid-template-rows: repeat(2, 1fr); 
+   grid-template-rows: repeat(2, auto); 
   padding: 0px 20px;
 }
 
@@ -108,7 +108,11 @@ h2 {
   margin-bottom: 20px;
 }
 
-.block-1{
-  grid-column: 1;
+.mini-block{
   grid-row: 2/3;
+}
+
+.title-decor-thin {
+  font-weight: 400;
+  margin-top: 20px;
 }
