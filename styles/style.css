@@ -181,6 +181,7 @@ h2 {
 }
 
 .ice-cream {
+  grid-column: 3;
   grid-row: span 2;
   width: 315px;
   height: 595px;
@@ -197,4 +198,48 @@ h2 {
 .books {
   width: 315px;
   height: 315px;
+}
+
+.street {
+  grid-column: span 2;
+  width: 649px;
+  height: 428px;
+}
+
+footer {
+  margin-top: 60px;
+  min-height: 768px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+footer::before {
+  content: ''; 
+  position: absolute;
+  top: 723px;
+  right: 979px;
+  width: 25px;
+  height: 25px; 
+  border-bottom: 1px solid var(--accent-color);   
+  border-left: 1px solid var(--accent-color);  
+}
+
+footer::after {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: 979px;
+  width: 25px;
+  height: 25px; 
+  border-top: 1px solid var(--accent-color);   
+  border-right: 1px solid var(--accent-color);  
+}
+
+h5 {
+  color: #DB00FF;
+  text-shadow: 2px 2px 0px var(--accent-color);
+  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
 }
