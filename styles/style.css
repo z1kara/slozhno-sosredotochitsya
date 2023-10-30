@@ -48,7 +48,7 @@ header::after {
 
 span {
   position: absolute;
-  padding: 0px 0px 0px 943px;
+  margin: 0px 0px 0px 943px;
   color: var(--accent-color);
   font-size: 18px;
   line-height: 25px;
