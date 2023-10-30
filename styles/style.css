@@ -23,7 +23,7 @@
   content: "";
   position: absolute;
   top: 723px;
-  right: 979px;
+  left: 20px;
   width: 25px;
   height: 25px;
   border-bottom: 1px solid var(--button-color);
@@ -34,11 +34,20 @@ header::after {
   content: "";
   position: absolute;
   top: 20px;
-  left: 979px;
+  right: 20px;
   width: 25px;
   height: 25px;
   border-top: 1px solid var(--button-color);
   border-right: 1px solid var(--button-color);
+}
+
+@media (max-width:768px) {
+  .header {
+    display: grid;
+    grid-template-rows: 443px auto 442px;
+    align-items: baseline;
+    max-height: 1024px;
+  }
 }
 
 span {
@@ -227,7 +236,7 @@ footer::before {
   content: "";
   position: absolute;
   top: 723px;
-  right: 979px;
+  left: 20px;
   width: 25px;
   height: 25px;
   border-bottom: 1px solid var(--accent-color);
@@ -238,7 +247,7 @@ footer::after {
   content: "";
   position: absolute;
   top: 20px;
-  left: 979px;
+  right: 20px;
   width: 25px;
   height: 25px;
   border-top: 1px solid var(--accent-color);
