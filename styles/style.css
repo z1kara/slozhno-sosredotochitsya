@@ -1,10 +1,5 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-:root {
-  --main-font: "IBM Plex mono";
-  --bg-color: #000028;
-  --text-color: #f1b2ce;
-  --accent-color: #ff0070;
-}
+
 .page {
   position: relative;
   font-family: var(--main-font);
@@ -31,8 +26,8 @@
   right: 979px;
   width: 25px;
   height: 25px;
-  border-bottom: 1px solid var(--accent-color);
-  border-left: 1px solid var(--accent-color);
+  border-bottom: 1px solid var(--button-color);
+  border-left: 1px solid var(--button-color);
 }
 
 header::after {
@@ -42,8 +37,8 @@ header::after {
   left: 979px;
   width: 25px;
   height: 25px;
-  border-top: 1px solid var(--accent-color);
-  border-right: 1px solid var(--accent-color);
+  border-top: 1px solid var(--button-color);
+  border-right: 1px solid var(--button-color);
 }
 
 span {
@@ -69,7 +64,7 @@ span:after {
 
 .title {
   margin-bottom: 114px;
-  color: #db00ff;
+  color: var(--title-color);
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   line-height: 82.5%;
   text-shadow: 4px 4px 0px var(--accent-color);
@@ -89,7 +84,7 @@ span:after {
   width: 70px;
   height: 26px;
   border: 1px solid transparent;
-  color: var(--accent-color);
+  color: var(--button-color);
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 18px;
@@ -99,7 +94,7 @@ span:after {
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--accent-color);
+  border: 1px solid var(--button-color);
 }
 
 .title-decor {
@@ -129,7 +124,7 @@ section {
 } */
 
 h2 {
-  color: var(--accent-color);
+  color: var(--button-color);
   font-size: 18px;
   line-height: 23.4px;
 }
@@ -251,7 +246,7 @@ footer::after {
 }
 
 h5 {
-  color: #db00ff;
+  color: var(--title-color);
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   text-shadow: 2px 2px 0px var(--accent-color);
 }
