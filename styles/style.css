@@ -43,10 +43,13 @@ header::after {
 
 @media (max-width:768px) {
   .header {
-    display: grid;
     grid-template-rows: 443px auto 442px;
     align-items: baseline;
     max-height: 1024px;
+  }
+  
+  .header::before {
+    top: 979px;
   }
 }
 
