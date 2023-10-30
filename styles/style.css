@@ -52,7 +52,7 @@ header::after {
 
 span {
   position: absolute;
-  margin: 0px 0px 0px 943px;
+  right: 28px;
   color: var(--accent-color);
   font-size: 18px;
   line-height: 25px;
