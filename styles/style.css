@@ -98,7 +98,7 @@ span:after {
 }
 
 .title-decor {
-  color: var(--bg-color);
+  color: var(--decoration-text-color);
   font-weight: 700;
   font-size: 18px;
   font-style: normal;
