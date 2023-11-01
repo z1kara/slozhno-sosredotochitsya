@@ -196,8 +196,32 @@ h2 {
   line-height: 23.4px;
 }
 
-.mini-block {
+.mini-block-1{
   grid-row: 2/3;
+}
+
+.mini-block-2{
+  grid-row: 2/3;
+}
+
+.mini-block-3{
+  grid-row: 2/3;
+}
+
+@media (max-width:768px) {
+  .mini-block-1{
+    grid-column: span 3;
+  }
+
+  .mini-block-2{
+    grid-row: 3/4;
+    grid-column: span 3;
+  }
+ 
+  .mini-block-3{
+    grid-row: 4/5;
+    grid-column: span 3;
+  }
 }
 
 .title-decor-thin {
