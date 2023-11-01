@@ -47,7 +47,7 @@ header::after {
     align-items: baseline;
     max-height: 1024px;
   }
-  
+
   .header::before {
     top: 979px;
   }
@@ -92,6 +92,18 @@ span:after {
   gap: 10px;
 }
 
+@media (max-width:768px) {
+  .header__theme-menu  {
+    padding-top: 172px;
+  }
+  
+  .header__theme-menu-list {
+    flex-direction: column;
+    align-items: flex-end
+    
+  }
+}
+
 .header__theme-menu-button {
   width: 70px;
   height: 26px;
@@ -122,6 +134,12 @@ span:after {
   margin: 0px 20px;
   max-width: 50%;
   margin-inline-start:50%;
+}
+
+@media (max-width:768px) {
+  .title-decor-position {
+  
+  }
 }
 
 section {
