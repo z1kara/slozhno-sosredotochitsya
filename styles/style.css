@@ -82,6 +82,12 @@ span:after {
   text-shadow: 4px 4px 0px var(--accent-color);
 }
 
+@media (max-width:768px) {
+  .title {
+    margin-bottom: 162px;
+  }
+}
+
 .header__theme-menu {
   padding: 0px 20px;
 }
@@ -134,12 +140,6 @@ span:after {
   margin: 0px 20px;
   max-width: 50%;
   margin-inline-start:50%;
-}
-
-@media (max-width:768px) {
-  .title-decor-position {
-  
-  }
 }
 
 section {
