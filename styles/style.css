@@ -227,14 +227,14 @@ h2 {
   font-weight: 400;
 }
 
-.picture-container {
+/* .picture-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, auto);
   gap: 20px;
   margin-top: 60px;
   padding: 0px 20px;
-}
+} */
 
 .sunset {
   grid-column: span 2;
