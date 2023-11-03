@@ -340,6 +340,28 @@ h2 {
   height: 428px;
 }
 
+@media (max-width:768px) {
+  .sunset {
+    height: 192px;
+  }
+
+  .ice-cream {
+    height: 441px;
+  }
+
+  .tape {
+    height: 568px;
+  }
+
+  .books {
+    height: 230px;
+  }
+
+  .street {
+    height: 318px;
+  }
+}
+
 footer {
   position: relative;
   display: flex;
