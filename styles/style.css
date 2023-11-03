@@ -4,10 +4,33 @@
   position: relative;
   font-family: var(--main-font);
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-  background-image: url(/images/cover-image-dark.png);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+}
+
+@media (prefers-color-scheme: light) {
+  .page {
+    background-image: url(/images/cover-image-light.png);
+    --main-font: "IBM Plex mono";
+    --decoration-text-color: #353430;
+    --text-color: #353430;
+    --accent-color: #ff8dcb;
+    --title-color:  #FFC2E6;
+    --button-color: #353430;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .page {
+    --main-font: "IBM Plex mono";
+  --decoration-text-color: #000028;
+  --accent-color: #ff0070;
+  --title-color:  #db00ff;
+  --button-color:var(--accent-color);
+  --text-color: #F1B2CE;
+  background-image: url(/images/cover-image-dark.png);
+  }
 }
 
 .header {
