@@ -425,6 +425,21 @@ footer::after {
   border-right: 1px solid var(--accent-color);
 }
 
+@media (max-width:768px) {
+  footer {
+    min-height: 1024px;
+  }
+
+  footer::before {
+    top: 979px;
+  }
+}
+
+@media (max-width:375px) {
+  footer {
+
+  }
+}
 
 h5 {
   color: var(--title-color);
