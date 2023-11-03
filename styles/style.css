@@ -10,7 +10,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  .page {
+  body {
     background-image: url(/images/cover-image-light.png);
     --main-font: "IBM Plex mono";
     --decoration-text-color: #353430;
@@ -22,7 +22,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .page {
+  body {
     --main-font: "IBM Plex mono";
   --decoration-text-color: #000028;
   --accent-color: #ff0070;
