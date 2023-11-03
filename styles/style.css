@@ -400,7 +400,6 @@ footer {
   align-items: center;
   min-height: 768px;
   margin-top: 60px;
-  padding: 20px;
 }
 
 footer::before {
@@ -435,14 +434,29 @@ footer::after {
   }
 }
 
-@media (max-width:375px) {
-  footer {
-
-  }
-}
-
 h5 {
   color: var(--title-color);
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   text-shadow: 2px 2px 0px var(--accent-color);
+}
+
+@media (max-width:375px) {
+  footer {
+    min-height: 667px;
+    margin-top: 40px;
+  }
+
+  footer::before {
+    top: 632px;
+    left: 10px;
+  }
+
+  footer::after {
+    top: 10px;
+    right: 10px;
+  }
+
+  h5 {
+    font-size:clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  }
 }
