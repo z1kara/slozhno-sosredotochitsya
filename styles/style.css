@@ -80,7 +80,7 @@ header::after {
   }
 }
 
-span {
+.rec {
   position: absolute;
   right: 28px;
   color: var(--button-color);
@@ -90,12 +90,12 @@ span {
 }
 
 @media (max-width: 375px) {
-  span {
+  .rec {
     right: 18px;
   }
 }
 
-span:after {
+.rec:after {
   content: "";
   display: inline-block;
   width: 9px;
