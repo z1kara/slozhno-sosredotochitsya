@@ -17,3 +17,15 @@
   --title-color:  #FFC2E6;
   --button-color: #353430;
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --main-font: "IBM Plex mono";
+    --decoration-text-color: #353430;
+    --text-color: #353430;
+    --accent-color: #ff8dcb;
+    --title-color: #ffc2e6;
+    --button-color: #353430;
+    background-image: url(/images/cover-image-light.png);    
+    }
+}
