@@ -14,7 +14,7 @@
   --decoration-text-color: #353430;
   --text-color: #353430;
   --accent-color: #ff8dcb;
-  --title-color:  #FFC2E6;
+  --title-color: #ffc2e6;
   --button-color: #353430;
 }
 
@@ -26,6 +26,6 @@
     --accent-color: #ff8dcb;
     --title-color: #ffc2e6;
     --button-color: #353430;
-    background-image: url(/images/cover-image-light.png);    
-    }
+    background-image: url(/images/cover-image-light.png);
+  }
 }
