@@ -257,7 +257,7 @@ h2 {
 }
 
 .text-hadow:focus {
-  border: 1px solid #ff0070;
+  border: 1px solid var(--text-color);
 }
 
 .big-block--1 {
