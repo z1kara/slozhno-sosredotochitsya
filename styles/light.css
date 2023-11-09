@@ -16,6 +16,7 @@
   --accent-color: #ff8dcb;
   --title-color: #ffc2e6;
   --button-color: #353430;
+  --button-color-rgb: 50, 49, 45;
 
   .rec {
     color: transparent;
@@ -34,6 +35,7 @@
     --accent-color: #ff8dcb;
     --title-color: #ffc2e6;
     --button-color: #353430;
+    --button-color-rgb: 50, 49, 45;
     background-image: url(/images/cover-image-light.png);
   }
 
