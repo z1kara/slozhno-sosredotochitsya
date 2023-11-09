@@ -180,6 +180,11 @@ header::after {
   border: 1px solid rgba(var(--button-color-rgb), 0.4)
 }
 
+.header__theme-menu-button:focus {
+  border: transparent;
+  border-bottom: 1px solid var(--button-color);
+}
+
 .header__theme-menu-button_active {
   border: 1px solid var(--button-color);
   pointer-events: none;
@@ -248,7 +253,7 @@ h2 {
 }
 
 .text-hadow:hover {
-  text-decoration: underline;
+  border-bottom: solid 1px var(--text-color);
 }
 
 .text-hadow:focus {
