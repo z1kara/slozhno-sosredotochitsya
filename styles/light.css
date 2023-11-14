@@ -10,7 +10,6 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   background-image: url(/images/cover-image-light.png);
-  --main-font: "IBM Plex mono";
   --decoration-text-color: #353430;
   --text-color: #353430;
   --accent-color: #ff8dcb;
