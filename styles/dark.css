@@ -25,3 +25,16 @@
     background: var(--accent-color);
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    --main-font: "IBM Plex mono";
+    --decoration-text-color: #000028;
+    --accent-color: #ff0070;
+    --title-color: #db00ff;
+    --button-color: var(--accent-color);
+    --button-color-rgb: 255, 0, 112;
+    --text-color: #f1b2ce;
+    background-image: url(/images/cover-image-dark.png);
+  }
+}
