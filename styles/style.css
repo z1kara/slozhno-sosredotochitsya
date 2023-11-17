@@ -17,7 +17,7 @@
   padding: 20px 0px;
 }
 
-.header::before {
+.decorated-zone::before {
   content: "";
   position: absolute;
   top: 723px;
@@ -28,7 +28,7 @@
   border-left: 1px solid var(--button-color);
 }
 
-header::after {
+.decorated-zone::after {
   content: "";
   position: absolute;
   top: 20px;
@@ -45,7 +45,7 @@ header::after {
     max-height: 1024px;
   }
 
-  .header::before {
+  .decorated-zone::before {
     top: 979px;
   }
 }
@@ -57,12 +57,12 @@ header::after {
     padding: 10px 0px;
   }
 
-  .header::after {
+  .decorated-zone::after {
     top: 10px;
     right: 10px;
   }
 
-  .header::before {
+  .decorated-zone::before {
     top: 633px;
     left: 10px;
   }
@@ -416,35 +416,10 @@ footer {
   margin-top: 60px;
 }
 
-footer::before {
-  content: "";
-  position: absolute;
-  top: 723px;
-  left: 20px;
-  width: 25px;
-  height: 25px;
-  border-bottom: 1px solid var(--button-color);
-  border-left: 1px solid var(--button-color);
-}
-
-footer::after {
-  content: "";
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  width: 25px;
-  height: 25px;
-  border-top: 1px solid var(--button-color);
-  border-right: 1px solid var(--button-color);
-}
 
 @media (max-width: 768px) {
   footer {
     min-height: 1024px;
-  }
-
-  footer::before {
-    top: 979px;
   }
 }
 
@@ -458,16 +433,6 @@ h5 {
   footer {
     min-height: 667px;
     margin-top: 40px;
-  }
-
-  footer::before {
-    top: 632px;
-    left: 10px;
-  }
-
-  footer::after {
-    top: 10px;
-    right: 10px;
   }
 
   h5 {
