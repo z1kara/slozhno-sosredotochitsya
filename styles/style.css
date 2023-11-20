@@ -164,7 +164,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid rgba(var(--button-color-rgb), 0.4)
+  border: 1px solid rgba(var(--button-color-rgb), 0.4);
 }
 
 .header__theme-menu-button:focus {
@@ -415,7 +415,6 @@ footer {
   min-height: 768px;
   margin-top: 60px;
 }
-
 
 @media (max-width: 768px) {
   footer {

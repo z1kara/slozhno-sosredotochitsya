@@ -11,3 +11,7 @@
   --button-color-rgb: 255, 0, 112;
   --text-color: #F1B2CE;
 }
+
+@media (max-width: 768px) {
+  
+}
