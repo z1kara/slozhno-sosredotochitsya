@@ -72,13 +72,11 @@
   padding: 0px 20px;
 }
 
-
 .header__theme-menu-list {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
-
 
 .header__theme-menu-button {
   width: 70px;
@@ -121,8 +119,6 @@
   margin: 0px 20px;
   margin-inline-start: 50%;
 }
-
-
 
 section {
   display: grid;
@@ -169,7 +165,6 @@ h2 {
   grid-column: 1/4;
 }
 
-
 .text {
   padding-top: 10px;
   color: var(--text-color);
@@ -188,8 +183,6 @@ h2 {
 .mini-block_third-column {
   grid-row: 2/3;
 }
-
-
 
 .title-decor-thin {
   margin-top: 20px;

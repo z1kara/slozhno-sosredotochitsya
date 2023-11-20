@@ -6,10 +6,10 @@
   --main-font: "IBM Plex mono";
   --decoration-text-color: #000028;
   --accent-color: #ff0070;
-  --title-color:  #db00ff;
-  --button-color:var(--accent-color);
+  --title-color: #db00ff;
+  --button-color: var(--accent-color);
   --button-color-rgb: 255, 0, 112;
-  --text-color: #F1B2CE;
+  --text-color: #f1b2ce;
 }
 
 @media (max-width: 768px) {
@@ -107,9 +107,6 @@
 
   .header__theme-menu {
     padding: 0px 10px;
-  }
-
-  .header__theme-menu {
     padding-top: 65px;
   }
 
