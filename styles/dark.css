@@ -15,7 +15,7 @@
   --button-color:var(--accent-color);
   --button-color-rgb: 255, 0, 112;
   --text-color: #F1B2CE;
-  background-image: url(/images/cover-image-dark.png);
+  background-image: url(./images/cover-image-dark.png);
   
   .rec {
     color: var(--accent-color);
@@ -35,6 +35,6 @@
     --button-color: var(--accent-color);
     --button-color-rgb: 255, 0, 112;
     --text-color: #f1b2ce;
-    background-image: url(/images/cover-image-dark.png);
+    background-image: url(./images/cover-image-dark.png);
   }
 }
