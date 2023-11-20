@@ -247,12 +247,12 @@ h2 {
   border: 1px solid var(--text-color);
 }
 
-.big-block--1 {
+.block_first-column {
   grid-column: 1;
   grid-row: 1/2;
 }
 
-.big-block--2 {
+.block_second-and-third-column {
   grid-column: 2/4;
 }
 
@@ -261,17 +261,17 @@ h2 {
 }
 
 @media (max-width: 768px) {
-  .big-block--1 {
+  .block_first-column {
     min-width: 236px;
   }
 }
 
 @media (max-width: 375px) {
-  .big-block--1 {
+  .block_first-column {
     grid-column: span 3;
   }
 
-  .big-block--2 {
+  .block_second-and-third-column {
     grid-column: span 3;
   }
 }
