@@ -78,13 +78,7 @@
   }
 }
 
-@media (max-width: 515px) {
-  .block_first-column {
-    min-width: 177px;
-  }
-}
-
-@media (max-width: 455px) {
+@media (max-width: 576px) {
   .header {
     grid-template-rows: 228px auto 228px;
     max-height: 668px;
