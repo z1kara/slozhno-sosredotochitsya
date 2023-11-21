@@ -2,21 +2,21 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  background-image: var(--back-image);
   font-family: var(--main-font);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  background-image: var(--back-image);
 }
 
 .header {
+  position: relative;
   display: grid;
   grid-template-rows: 39vh 1fr 39vh;
   align-items: baseline;
-  min-height: 768px;
   height: 100vh;
+  min-height: 768px;
   padding: 20px 0px;
-  position: relative;
 }
 
 .decorated-zone::before {
@@ -138,7 +138,6 @@
 
 .section:last-of-type .section__title {
   grid-column: span 3;
-
 }
 
 .section__title {
@@ -202,7 +201,7 @@ h2 {
 
 .tape {
   grid-row: span 2;
-  
+
   width: 100%;
   height: 768px;
   object-fit: cover;
@@ -224,8 +223,8 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 768px;
   height: 100vh;
+  min-height: 768px;
   margin-top: 60px;
 }
 
@@ -234,7 +233,6 @@ h2 {
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   text-shadow: 2px 2px 0px var(--accent-color);
 }
-
 
 @media (max-width: 768px) {
   .header {
@@ -294,8 +292,8 @@ h2 {
 @media (max-width: 576px) {
   .header {
     grid-template-rows: 34svh 1fr 34svh;
-    padding: 10px 0px;
     min-height: 668px;
+    padding: 10px 0px;
   }
 
   .decorated-zone::after {
@@ -309,8 +307,8 @@ h2 {
   }
 
   .rec {
-    right: 18px;
     top: 10px;
+    right: 18px;
   }
 
   .title {
@@ -386,8 +384,8 @@ h2 {
   }
 
   .footer {
-    margin-top: 40px;
     min-height: 668px;
+    margin-top: 40px;
   }
 
   .footer__title {
