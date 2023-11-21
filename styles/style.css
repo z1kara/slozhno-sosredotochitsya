@@ -281,17 +281,15 @@ h2 {
     min-width: 236px;
   }
 
-  .mini-block_first-column {
+  .section__text_small {
     grid-column: span 3;
   }
 
-  .mini-block_second-column {
-    grid-column: span 3;
+  .section__text_small:nth-of-type(2){
     grid-row: 3/4;
   }
 
-  .mini-block_third-column {
-    grid-column: span 3;
+  .section__text_small:last-of-type {
     grid-row: 4/5;
   }
 
