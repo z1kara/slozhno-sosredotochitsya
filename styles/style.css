@@ -1,7 +1,6 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  position: relative;
   font-family: var(--main-font);
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   background-position: center;
@@ -13,7 +12,7 @@
   display: grid;
   grid-template-rows: 299px auto 299px;
   align-items: baseline;
-  min-height: 768px;
+  min-height: 100vh;
   padding: 20px 0px;
   position: relative;
 }
@@ -42,6 +41,7 @@
 
 .rec {
   position: absolute;
+  top: 20px;
   right: 28px;
   color: var(--button-color);
   font-size: 18px;
