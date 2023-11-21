@@ -316,7 +316,7 @@ h2 {
 
 @media (max-width: 576px) {
   .header {
-    grid-template-rows: 31svh 1fr 31svh;
+    grid-template-rows: 34svh 1fr 34svh;
     padding: 10px 0px;
     min-height: 668px;
   }
