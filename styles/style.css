@@ -141,6 +141,10 @@
 
 }
 
+.section__title {
+  min-width: 236px;
+}
+
 .section__text {
   grid-column: 2/4;
 }
