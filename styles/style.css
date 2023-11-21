@@ -285,7 +285,7 @@ h2 {
     grid-column: span 3;
   }
 
-  .section__text_small:nth-of-type(2){
+  .section__text_small:nth-of-type(2) {
     grid-row: 3/4;
   }
 
