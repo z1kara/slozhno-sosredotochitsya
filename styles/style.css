@@ -123,14 +123,16 @@
   margin-inline-start: 50%;
 }
 
-.section__text {
-  display: flex;
+section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, auto);
   gap: 20px;
   margin-top: 80px;
   padding: 0px 20px;
 }
 
-.section__text:first-of-type {
+section:first-of-type {
   margin-top: 60px;
 }
 
@@ -344,16 +346,16 @@ h2 {
     margin-inline-start: 10px;
   }
 
-  .section__text {
+  section {
     margin-top: 50px;
     padding: 0px 10px;
   }
 
-  .section__text:first-of-type {
+  section:first-of-type {
     margin-top: 40px;
   }
 
-  .section__text:last-of-type {
+  section:last-of-type {
     gap: 10px;
   }
 
