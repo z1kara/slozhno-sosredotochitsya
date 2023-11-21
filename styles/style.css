@@ -247,6 +247,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 768px;
   height: 100vh;
   margin-top: 60px;
 }
@@ -402,6 +403,7 @@ h2 {
 
   .footer {
     margin-top: 40px;
+    min-height: 668px;
   }
 
   .footer__title {
