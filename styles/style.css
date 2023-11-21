@@ -139,16 +139,16 @@ h2 {
   line-height: 23.4px;
 }
 
-.text-hadow {
+.text-shadow {
   text-decoration: none;
   text-shadow: 2px 2px 0px var(--accent-color);
 }
 
-.text-hadow:hover {
+.text-shadow:hover {
   border-bottom: solid 1px var(--text-color);
 }
 
-.text-hadow:focus {
+.text-shadow:focus {
   border: 1px solid var(--text-color);
 }
 
