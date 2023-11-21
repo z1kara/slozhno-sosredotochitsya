@@ -248,3 +248,156 @@ h2 {
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   text-shadow: 2px 2px 0px var(--accent-color);
 }
+
+
+@media (max-width: 768px) {
+  .header {
+    grid-template-rows: 43vh 1fr 43vh;
+    min-height: 1024px;
+  }
+
+  .title {
+    margin-bottom: 162px;
+  }
+
+  .header__theme-menu {
+    padding-top: 172px;
+  }
+
+  .header__theme-menu-list {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .block_first-column {
+    min-width: 236px;
+  }
+
+  .mini-block_first-column {
+    grid-column: span 3;
+  }
+
+  .mini-block_second-column {
+    grid-column: span 3;
+    grid-row: 3/4;
+  }
+
+  .mini-block_third-column {
+    grid-column: span 3;
+    grid-row: 4/5;
+  }
+
+  .sunset {
+    height: 192px;
+  }
+
+  .ice-cream {
+    height: 441px;
+  }
+
+  .tape {
+    height: 568px;
+  }
+
+  .books {
+    height: 230px;
+  }
+
+  .street {
+    height: 318px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+    grid-template-rows: 31svh 1fr 31svh;
+    padding: 10px 0px;
+    min-height: 668px;
+  }
+
+  .decorated-zone::after {
+    top: 10px;
+    right: 10px;
+  }
+
+  .decorated-zone::before {
+    bottom: 10px;
+    left: 10px;
+  }
+
+  .rec {
+    right: 18px;
+    top: 10px;
+  }
+
+  .title {
+    margin-bottom: 55px;
+    padding: 0px 10px;
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  }
+
+  .header__theme-menu {
+    padding: 0px 10px;
+    padding-top: 65px;
+  }
+
+  .title-decor-position {
+    max-width: 100%;
+    margin: 0px 10px;
+    margin-inline-start: 10px;
+  }
+
+  section {
+    margin-top: 50px;
+    padding: 0px 10px;
+  }
+
+  section:first-of-type {
+    margin-top: 40px;
+  }
+
+  section:last-of-type {
+    gap: 10px;
+  }
+
+  .block_first-column {
+    grid-column: span 3;
+  }
+
+  .block_second-and-third-column {
+    grid-column: span 3;
+  }
+
+  .sunset {
+    grid-column: span 3;
+    height: 142px;
+  }
+
+  .ice-cream {
+    grid-column: span 3;
+    height: 355px;
+  }
+
+  .tape {
+    grid-column: span 3;
+    height: 237px;
+  }
+
+  .books {
+    grid-column: span 3;
+    height: 355px;
+  }
+
+  .street {
+    grid-column: span 3;
+    height: 237px;
+  }
+
+  .footer {
+    margin-top: 40px;
+  }
+
+  .footer__title {
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  }
+}
