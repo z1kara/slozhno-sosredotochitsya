@@ -123,7 +123,7 @@
   margin-inline-start: 50%;
 }
 
-section {
+.section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, auto);
@@ -132,8 +132,16 @@ section {
   padding: 0px 20px;
 }
 
-section:first-of-type {
+.section:first-of-type {
   margin-top: 60px;
+}
+
+.section__text {
+  grid-column: 2/4;
+}
+
+.section__text_small {
+  grid-row-start: 2;
 }
 
 h2 {
@@ -346,16 +354,16 @@ h2 {
     margin-inline-start: 10px;
   }
 
-  section {
+  .section {
     margin-top: 50px;
     padding: 0px 10px;
   }
 
-  section:first-of-type {
+  .section:first-of-type {
     margin-top: 40px;
   }
 
-  section:last-of-type {
+  .section:last-of-type {
     gap: 10px;
   }
 
