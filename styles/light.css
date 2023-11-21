@@ -27,7 +27,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  body {
+  .page {
     --main-font: "IBM Plex mono";
     --decoration-text-color: #353430;
     --text-color: #353430;
