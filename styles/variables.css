@@ -15,7 +15,7 @@
 
 @media (max-width: 768px) {
   .header {
-    grid-template-rows: 443px auto 442px;
+    grid-template-rows: 43vh 1fr 43vh;
   }
 
   .title {
@@ -72,8 +72,9 @@
 
 @media (max-width: 576px) {
   .header {
-    grid-template-rows: 228px auto 228px;
+    grid-template-rows: 34vh 1fr 34vh;
     padding: 10px 0px;
+    height: 100svh;
   }
 
   .decorated-zone::after {
