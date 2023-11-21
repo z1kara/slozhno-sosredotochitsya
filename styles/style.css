@@ -12,7 +12,7 @@
   display: grid;
   grid-template-rows: 299px auto 299px;
   align-items: baseline;
-  min-height: 100vh;
+  height: 100vh;
   padding: 20px 0px;
   position: relative;
 }
