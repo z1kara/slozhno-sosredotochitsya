@@ -253,7 +253,6 @@ h2 {
 @media (max-width: 768px) {
   .header {
     grid-template-rows: 43vh 1fr 43vh;
-    min-height: 1024px;
   }
 
   .title {
