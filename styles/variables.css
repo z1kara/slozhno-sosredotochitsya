@@ -1,4 +1,4 @@
-/*
+/* 
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
@@ -253,29 +253,58 @@ h2 {
   color: var(--title-color);
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   text-shadow: 2px 2px 0px var(--accent-color);
-} */
-/* 
+} 
+ 
 }
 
+*/
 
 
-
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .header {
-    grid-template-rows: 443px auto 442px;
+    grid-template-rows: 43vh 1fr 43vh;
+    padding: 20px 0px;
   }
 
   .title {
     margin-bottom: 162px;
+    padding: 0px;
   }
 
   .header__theme-menu {
+    padding: 0px 20px;
     padding-top: 172px;
   }
 
   .header__theme-menu-list {
     flex-direction: column;
     align-items: flex-end;
+  }
+
+  .decorated-zone::before {
+    bottom: 20px;
+    left: 20px;
+  }
+
+  .decorated-zone::after {
+    top: 20px;
+    right: 20px;
+  }
+
+  
+  .rec {
+    right: 28px;
+    top: 20px;
+  }
+
+  .title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+
+  .title-decor-position {
+    max-width: 50%;
+    margin: 0px 20px;
+    margin-inline-start: 50%;
   }
 
   .block_first-column {
@@ -317,6 +346,7 @@ h2 {
   }
 }
 
+/*
 @media (max-width: 576px) {
   .header {
     grid-template-rows: 228px auto 228px;
@@ -408,4 +438,4 @@ h2 {
   .footer__title {
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
-} */ */
+}

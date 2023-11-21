@@ -10,7 +10,7 @@
 
 .header {
   display: grid;
-  grid-template-rows: 228px auto 228px;
+  grid-template-rows: 34vh 1fr 34vh;
   align-items: baseline;
   min-height: 668px;
   height: 100vh;
