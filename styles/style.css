@@ -13,14 +13,15 @@
   display: grid;
   grid-template-rows: 299px auto 299px;
   align-items: baseline;
-  max-height: 768px;
+  min-height: 768px;
   padding: 20px 0px;
+  position: relative;
 }
 
 .decorated-zone::before {
   content: "";
   position: absolute;
-  top: 723px;
+  bottom: 20px;
   left: 20px;
   width: 25px;
   height: 25px;
