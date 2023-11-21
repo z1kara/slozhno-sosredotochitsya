@@ -10,7 +10,6 @@
   --button-color: var(--accent-color);
   --button-color-rgb: 255, 0, 112;
   --text-color: #f1b2ce;
-  background-image: url(../images/cover-image-dark.png);
 }
 
 @media (max-width: 768px) {
