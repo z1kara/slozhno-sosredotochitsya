@@ -16,14 +16,14 @@
   --title-color: #ffc2e6;
   --button-color: #353430;
   --button-color-rgb: 50, 49, 45;
+}
 
-  .rec {
+.page.theme_light .rec {
     color: transparent;
-  }
-  
-  .rec:after {
+}
+
+.page.theme_light .rec::after {
     background: transparent;
-  }
 }
 
 @media (prefers-color-scheme: light) {

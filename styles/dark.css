@@ -16,14 +16,14 @@
   --button-color-rgb: 255, 0, 112;
   --text-color: #F1B2CE;
   background-image: url(../images/cover-image-dark.png);
-  
-  .rec {
-    color: var(--accent-color);
-  }
-  
-  .rec:after {
-    background: var(--accent-color);
-  }
+}
+
+.page.theme_dark .rec {
+  color: var(--accent-color);
+}
+
+.page.theme_dark .rec::after {
+  background: var(--accent-color);
 }
 
 @media (prefers-color-scheme: dark) {
