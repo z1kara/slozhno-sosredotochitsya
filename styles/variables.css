@@ -67,10 +67,6 @@
   .street {
     height: 318px;
   }
-
-  footer {
-    min-height: 1024px;
-  }
 }
 
 @media (max-width: 576px) {
@@ -157,8 +153,7 @@
     height: 237px;
   }
 
-  footer {
-    min-height: 667px;
+  .footer {
     margin-top: 40px;
   }
 
