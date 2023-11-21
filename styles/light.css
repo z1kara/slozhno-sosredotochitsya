@@ -9,7 +9,7 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  background-image: url(../images/cover-image-light.png);
+  --back-image: url('../images/cover-image-light.png');
   --decoration-text-color: #353430;
   --text-color: #353430;
   --accent-color: #ff8dcb;
@@ -27,7 +27,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  .page {
+  :root {
     --main-font: "IBM Plex mono";
     --decoration-text-color: #353430;
     --text-color: #353430;
@@ -35,7 +35,7 @@
     --title-color: #ffc2e6;
     --button-color: #353430;
     --button-color-rgb: 50, 49, 45;
-    background-image: url(../images/cover-image-light.png);
+    --back-image: url('../images/cover-image-light.png');
   }
 
   .rec {
